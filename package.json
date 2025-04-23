@@ -1,6 +1,6 @@
 {
   "name": "@daizyio/node-red-contrib-daizy-bacnet",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Connect to Daizy BACnet",
   "dependencies": {
     "mqtt": "*",
@@ -13,6 +13,7 @@
     "daizy"
   ],
   "node-red": {
+    "version": ">=2.1.4",
     "nodes": {
       "daizy-bacnet-events": "daizy-bacnet-events.js"
     }
