@@ -1,0 +1,33 @@
+{
+  "name": "@daizyio/node-red-contrib-daizy-bacnet",
+  "version": "0.1.0",
+  "description": "Connect to Daizy BACnet",
+  "dependencies": {
+    "mqtt": "*",
+    "node-cache": "^5.1.2",
+    "ws": "^6.2.2"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "node-red",
+    "daizy"
+  ],
+  "node-red": {
+    "nodes": {
+      "daizy-bacnet-events": "daizy-bacnet-events.js"
+    }
+  },
+  "author": "Daizy Ltd <support@daizy.io>",
+  "main": "daizy-bacnet-events.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daizyio/node-red-contrib-daizy-bacnet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daizyio/node-red-contrib-daizy-bacnet/issues"
+  },
+  "homepage": "https://github.com/daizyio/node-red-contrib-daizy-bacnet#readme"
+}
