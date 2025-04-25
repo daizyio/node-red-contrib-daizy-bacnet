@@ -1,6 +1,6 @@
 {
   "name": "@daizyio/node-red-contrib-daizy-bacnet",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Connect to Daizy BACnet",
   "dependencies": {
     "mqtt": "*",
